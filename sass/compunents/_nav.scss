@@ -1,0 +1,45 @@
+#main_menu {
+    background-color: #02050A;
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+
+        .part_1 {
+            width: 20%;
+
+            img {
+                width: 80%;
+            }
+        }
+
+        .part_2 {
+            width: 80%;
+            align-items: center;
+            display: flex;
+            justify-content: end;
+
+            ul {
+                display: flex;
+
+                li {
+                    margin-right: 40px;
+
+                    a {
+                        color: #D1AD67;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-weight: 500;
+                        transition: .4s;
+
+                        &:hover {
+                            color: #55E6A5;
+                            font-size: 18px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

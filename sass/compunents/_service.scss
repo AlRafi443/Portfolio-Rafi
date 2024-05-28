@@ -1,0 +1,45 @@
+#service {
+    padding: 100px 0;
+
+    .part_1 {
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+    .part_2 {
+        display: flex;
+        justify-content: space-between;
+
+        .box_1 {
+            position: relative;
+            width: 33%;
+            border: 3px solid #191919;
+            align-items: center;
+
+            img {
+                position: absolute;
+                left: 170px;
+                top: -40px;
+            }
+
+            h3 {
+                color: #FFF;
+                text-align: center;
+                font-family: Poppins;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                padding-top: 104px;
+            }
+
+            p {
+                width: 330px;
+                text-align: center;
+                margin-left: 53px;
+                padding-bottom: 44px;
+            }
+        }
+    }
+}

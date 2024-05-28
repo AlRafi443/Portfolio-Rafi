@@ -1,0 +1,86 @@
+#price{
+    padding: 100px 0;
+    .start{
+        text-align: center;
+        padding: 30px;
+    }
+    .m_main{
+        display: flex;
+        .box{
+            text-align: center;
+            padding: 60px;
+            background-color: #09101A;
+            width: 95%;
+            border-radius: 10px;
+            .m_box{
+                padding-bottom: 70px;
+                margin-left: 100px;
+                h6{
+                    color: #1d1d1d;
+                    font-weight: 900;
+                    font-size: 13px;
+                    text-transform: uppercase;
+                    padding: 10px 20px;
+                    background-color: #55E6A5;
+                    border-radius: 30px;
+                    width: 105px;
+                }
+                
+            }
+            .fllx{
+                justify-content: center;
+                padding-bottom: 30px;
+                h3{
+                    font-size: 45px;
+                    font-weight: 500;
+                    color: #FFFF;
+                    font-family: Poppins, sans-serif;
+                    line-height: 68px;
+                }
+                p{
+                    margin-top: 30px;
+                    margin-left: 20px;
+                    font-size: 20px;
+                    font-weight: 300;
+                    color: #A2A2A2;
+                    font-family: 'Poppins', sans-serif;
+                }
+            }
+            ul{
+                margin-left: 31px;
+                li{
+                    position: relative;
+                    i{
+                        position: absolute;
+                        left: -26px;
+                        top: 6px;
+                        color: #55E6A5;
+                    }
+                    p{
+                        color: #A2A2A2;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        text-align: left;
+                        font-weight: 500;
+                        line-height: 27.2px;
+                    }
+                }
+            }
+            .m_box_2{
+                padding-bottom: 70px;
+                margin-left: 70px;
+                h6{
+                    color: #1d1d1d;
+                    font-weight: 900;
+                    font-size: 13px;
+                    text-transform: uppercase;
+                    padding: 10px 20px;
+                    background-color: #55E6A5;
+                    border-radius: 30px;
+                    width: 170px;
+                }
+                
+            }
+        }
+    }
+}

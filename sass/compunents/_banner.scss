@@ -1,0 +1,98 @@
+#banner {
+    padding: 100px 0;
+    background: url(../images/banner_background.png) no-repeat center;
+    background-size: cover;
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .part_1 {
+            width: 40%;
+
+            .wite {
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 60px;
+                font-weight: 700;
+                line-height: 72px;
+                text-transform: uppercase;
+            }
+
+            .inline {
+                display: flex;
+
+                .gold {
+                    color: #c7990cf5;
+                    font-family: Poppins;
+                    font-size: 60px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 72px;
+                    text-transform: uppercase;
+                    margin-left: 10px;
+                }
+
+                .green {
+                    color: #55E6A5;
+                    font-family: Poppins;
+                    font-size: 60px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 72px;
+                    text-transform: uppercase;
+                    margin-left: 10px;
+                }
+            }
+
+            .watch_now {
+                margin-left: 30px;
+                color: #D1AD67;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-transform: capitalize;
+                transition: .4s;
+
+                i {
+                    height: 45px;
+                    width: 45px;
+                    border-radius: 50%;
+                    color: #02050A;
+                    background-color: #55E6A5;
+                    font-size: 20px;
+                    line-height: 45px;
+                    text-align: center;
+                    margin-right: 5px;
+                }
+
+                &:active {
+                    transform: scale(2);
+                }
+            }
+        }
+
+        .part_2 {
+            position: relative;
+            width: 40%;
+
+            .img_2 {
+                img {
+                    width: 90%;
+                }
+            }
+
+            img {
+                width: 100%;
+            }
+
+            .posit {
+                position: absolute;
+                left: -20px;
+                top: -24px;
+            }
+        }
+    }
+}

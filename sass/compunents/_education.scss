@@ -1,0 +1,33 @@
+#education {
+    padding: 100px 0;
+
+    .start {
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 100px;
+
+        .part {
+            width: 48%;
+
+            .yr {
+                padding: 12px 25px;
+                border: 3px solid #55E6A5;
+                margin-bottom: 30px;
+                width: 160px;
+
+                h5 {
+                    color: #55E6A5;
+                    font-family: Poppins;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 30.6px;
+                }
+            }
+        }
+    }
+}

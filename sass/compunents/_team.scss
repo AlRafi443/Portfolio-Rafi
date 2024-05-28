@@ -1,0 +1,27 @@
+#team{
+    padding: 100px 0;
+    .start{
+        text-align: center;
+    }
+    .box{
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-evenly;
+        .sz{
+            width: 390px;
+            
+            img{
+                border: 2px solid #55E6A5;
+                width: 100%;
+            }
+        }
+        .br{
+            width: 430px;
+            border: 4px solid #BF940D;
+            transition: .100s;
+            &:hover{
+                background: linear-gradient(0deg, rgba(191,148,13,1) 0%, rgba(59,56,49,1) 27%, rgba(0,0,0,1) 69%);
+            }
+        }
+    }
+}

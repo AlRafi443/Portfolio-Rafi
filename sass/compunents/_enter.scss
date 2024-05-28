@@ -1,0 +1,56 @@
+#enter {
+    padding: 150px 0;
+    background: url(../images/div.tf__subscribe.png) no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    background-attachment: fixed;
+    position: relative;
+
+    &::before {
+        content: '';
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .main {
+        padding-bottom: 30px;
+
+        h3 {
+            color: #FFF;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 36px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .box {
+            margin-left: 351px;
+            margin-top: 30px;
+            display: flex;
+            width: 636px;
+            padding: 10px;
+            border: 1px solid #55E6A5;
+
+            .mar {
+                margin-left: 26px;
+                margin-top: 16px;
+                padding-top: 0px;
+                width: 70%;
+            }
+
+            .mar_2 {
+                width: 30%;
+                margin-top: 0;
+            }
+
+        }
+    }
+}
